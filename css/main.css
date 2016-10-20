@@ -1,0 +1,46 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+body,html {
+  margin:0;
+  padding:0;
+  border:none;
+}
+.header {
+  margin: 0 auto;
+  text-align: center;
+  background-color: lightblue;
+  margin:0;
+  padding:0;
+  border:none;
+  min-height:30em;
+  max-width:initial;
+  width:initial;
+  display: block;
+    content: "";
+    height: 10%;
+    height:  90vh;}
+/*This is the main 'MADE IN HEAVEN GAMES' text*/
+.title {
+    font-family: 'Open Sans', sans-serif;
+  font-style: bold;
+  font-weight: 500;
+  font-size: 5em;
+  }
+.innerheader {
+    height: 80%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: inline-block;
+    
+  vertical-align: middle;
+  line-height: normal;
+}
+
+#cloudCanvas {
+    position:fixed; top:0;left:0;
+}
+
+#cloud {
+    position: relative;
+    left: 0px;
+    top: 0px;
+}

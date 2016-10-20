@@ -7,9 +7,24 @@
 	<script type="text/javascript" src="./node_modules/jquery/dist/jquery.js"></script>
 	<link rel="stylesheet" href="./node_modules/skeleton-css/css/skeleton.css" />
 	<link rel="stylesheet" href="./node_modules/skeleton-css/css/normalize.css" />
+  <!-- Fonts -->
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+  <!-- The custom stuff -->
+  <link rel="stylesheet" href="./css/main.css" />
+  <script type="text/javascript" src="./javascript/main.js"></script>
 </head>
 <body>
-<!-- .container is main centered wrapper -->
+<div class=" container header" id="headerParent">
+  
+    <!--<object id="cloud" data="./assets/ic_cloud_black_24px.svg" type="image/svg+xml"></object>-->
+  <div class="innerheader">
+        <h1 class="title">Made In Heaven Games</h1>
+    </div>
+    <canvas id="cloudCanvas" style="">
+      <object id="cloud" data="./assets/ic_cloud_black_24px.svg" type="image/svg+xml"></object>
+    </canvas>
+  
+</div>
 <div class="container">
 
   <!-- columns should be the immediate child of a .row -->
