@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 body,html {
   margin:0;
   padding:0;
@@ -7,7 +7,7 @@ body,html {
 .header {
   margin: 0 auto;
   text-align: center;
-  background-color: lightblue;
+  /*background-color: lightblue;*/
   margin:0;
   padding:0;
   border:none;
@@ -15,15 +15,19 @@ body,html {
   max-width:initial;
   width:initial;
   display: block;
-    content: "";
+    /*content: "";*/
     height: 10%;
-    height:  90vh;}
+    height:  90vh;
+    z-index: 0;}
 /*This is the main 'MADE IN HEAVEN GAMES' text*/
 .title {
+  position: relative;
     font-family: 'Open Sans', sans-serif;
   font-style: bold;
   font-weight: 500;
   font-size: 5em;
+  z-index: 2;
+  
   }
 .innerheader {
     height: 80%;
