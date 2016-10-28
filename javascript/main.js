@@ -36,6 +36,8 @@ $(document).ready(function() {
   stage = new PIXI.Container();
   renderer = PIXI.autoDetectRenderer(canvas.width, canvas.height, {view: canvas});
   renderer.backgroundColor = 0x4286f4;
+  renderer.view.style.position = "absolute";
+  renderer.view.style.display = "block";
 
 //Use Pixi's built-in `loader` object to load an image
 PIXI.loader
